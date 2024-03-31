@@ -8,13 +8,13 @@ h1 {
     background: grey
   }
   #todo-list {
-    width: 500px;
+    width: 600px;
     margin: 60px auto;
   }
   form, .todo {
     border: 1px solid rgb(15, 26, 61);
-    padding: 10px 20px;
-    margin-bottom: 10px;
+    padding: 20px 20px;
+    margin-bottom: 20px;
   }
   form {
     display: flex;
@@ -28,7 +28,7 @@ h1 {
   }
   .todo {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
   }
     
   button {
@@ -39,6 +39,8 @@ h1 {
     border: none;
     padding: 8px 16px;
     cursor: pointer;
+    margin-right: 30px;
+    width: 100px;
   }
   button:hover {
     background-color: rgb(173, 47, 28);
@@ -61,7 +63,7 @@ h1 {
   .todo-text {
     font-size: 24px;
     line-height: 24px;
-    margin-bottom: 1cm;
+    margin-right: 30px;
     display: flex;
     align-self: center;
   }
